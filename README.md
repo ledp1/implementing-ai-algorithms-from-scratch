@@ -1,4 +1,4 @@
-# Linear Regression Analysis
+# Artificial Intelligence
 
 A Python implementation of linear regression from scratch using NumPy. This project demonstrates fundamental machine learning concepts by implementing a simple linear regression model without relying on machine learning libraries.
 
