@@ -1,57 +1,59 @@
 # Artificial Intelligence
 
-A Python implementation of linear regression from scratch using NumPy. This project demonstrates fundamental machine learning concepts by implementing a simple linear regression model without relying on machine learning libraries.
+This project contains Python implementations of linear regression and sales regression models, demonstrating fundamental machine learning concepts using NumPy and Matplotlib. All code is organized in the `machine-learning` folder for clarity and modularity.
+
+## Project Structure
+
+- `machine-learning/`
+  - `linear_regression_analysis.py`: Implements linear regression from scratch on a simple dataset, with visualization.
+  - `sales_regression_model_1.py`: Linear regression on advertising costs vs. sales, with visualization.
+  - `sales_regression_model_2.py`: Linear regression on ad hours vs. weekly sales, with visualization.
+  - `sales_regression_model_3.py`: (Empty, ready for future models.)
+- `LICENSE`, `.gitignore`, `README.md`, `venv/`: Standard project files and virtual environment.
 
 ## Features
 
 - Implements linear regression from first principles
 - Uses NumPy for efficient numerical computations
-- Demonstrates the mathematical foundation of linear regression
-- Clean, well-documented code
+- Visualizes data and regression results with Matplotlib
+- Modular code for easy extension
 
 ## Requirements
 
 - Python 3.x
 - NumPy
+- Matplotlib
 
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/luisdepombo/AI-pytorch.git
-cd AI-pytorch
-```
-
+   ```bash
+   git clone https://github.com/luisdepombo/AI-pytorch.git
+   cd AI-pytorch
+   ```
 2. Create and activate a virtual environment:
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 3. Install dependencies:
-```bash
-pip install numpy
-```
+   ```bash
+   pip install numpy matplotlib
+   ```
 
 ## Usage
 
-Run the script:
+Navigate to the `machine-learning` folder and run any script. For example:
 ```bash
+cd machine-learning
 python linear_regression_analysis.py
 ```
 
-The script will:
-1. Load sample data
-2. Calculate the regression coefficients
-3. Print the resulting linear equation
-
-## How It Works
-
-The implementation follows these steps:
-1. Calculate the mean of X and y values
-2. Compute the slope (m) using the covariance formula
-3. Calculate the y-intercept (c)
-4. Form the linear equation: y = c + m*x
+Each script will:
+- Load sample data
+- Calculate regression coefficients
+- Print the resulting linear equation
+- Display a plot of the data and regression line
 
 ## License
 
