@@ -1,21 +1,18 @@
-# Artificial Intelligence
+# Implementing AI Algorithms from Scratch
 
-This project contains Python implementations of linear regression and sales regression models, demonstrating fundamental machine learning concepts using NumPy and Matplotlib. All code is organized in the `machine-learning` folder for clarity and modularity.
+This project contains Python implementations of various AI and machine learning algorithms from scratch, demonstrating fundamental concepts using NumPy and Matplotlib.
 
 ## Project Structure
 
-- `machine-learning/`
-  - `linear_regression_analysis.py`: Implements linear regression from scratch on a simple dataset, with visualization.
-  - `sales_regression_model_1.py`: Linear regression on advertising costs vs. sales, with visualization.
-  - `sales_regression_model_2.py`: Linear regression on ad hours vs. weekly sales, with visualization.
-  - `sales_regression_model_3.py`: (Empty, ready for future models.)
-- `LICENSE`, `.gitignore`, `README.md`, `venv/`: Standard project files and virtual environment.
+- `regression-and-gradient-descent/`
+  - Contains implementations of linear regression and gradient descent algorithms
+  - Each implementation includes detailed documentation and visualizations
 
 ## Features
 
-- Implements linear regression from first principles
+- Implements AI algorithms from first principles
 - Uses NumPy for efficient numerical computations
-- Visualizes data and regression results with Matplotlib
+- Visualizes data and results with Matplotlib
 - Modular code for easy extension
 
 ## Requirements
@@ -28,8 +25,8 @@ This project contains Python implementations of linear regression and sales regr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/luisdepombo/AI-pytorch.git
-   cd AI-pytorch
+   git clone https://github.com/ledp1/implementing-ai-algorithms-from-scratch.git
+   cd implementing-ai-algorithms-from-scratch
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -43,17 +40,11 @@ This project contains Python implementations of linear regression and sales regr
 
 ## Usage
 
-Navigate to the `machine-learning` folder and run any script. For example:
-```bash
-cd machine-learning
-python linear_regression_analysis.py
-```
-
-Each script will:
-- Load sample data
-- Calculate regression coefficients
-- Print the resulting linear equation
-- Display a plot of the data and regression line
+Navigate to the specific algorithm folder and run any script. Each implementation includes:
+- Detailed documentation
+- Sample data or examples
+- Visualization of results
+- Explanation of the underlying concepts
 
 ## License
 
