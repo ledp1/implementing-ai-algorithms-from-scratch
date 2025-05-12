@@ -49,3 +49,5 @@ Navigate to the specific algorithm folder and run any script. Each implementatio
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ledp1/implementing-ai-algorithms-from-scratch)
