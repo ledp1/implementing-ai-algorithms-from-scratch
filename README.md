@@ -6,6 +6,7 @@ This project contains Python implementations of various AI and machine learning 
 
 - `regression-and-gradient-descent/`
   - Contains implementations of linear regression and gradient descent algorithms
+  - Includes house price prediction using multiple linear regression
   - Each implementation includes detailed documentation and visualizations
 
 ## Features
