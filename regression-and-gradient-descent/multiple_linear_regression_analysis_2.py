@@ -14,13 +14,13 @@ coefficients = np.linalg.inv(X.T @ X) @ X.T @ prices
 # predicting prices
 predicted_prices = X @ coefficients
 
-# calculating residuals
+# calculating residuals 
 residuals = prices - predicted_prices
 
-# calculating total sum of squares
+# calculating total sum of squares 
 sst = np.sum((prices - np.mean(prices)) ** 2)
 
-# calculating residual sum of squares
+# calculating residual sum of squares 
 ssr = np.sum(residuals ** 2)
 
 # calculating R^2
