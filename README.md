@@ -1,6 +1,6 @@
 # Implementing AI Algorithms from Scratch
 
-This project contains Python implementations of various AI and machine learning algorithms from scratch, demonstrating fundamental concepts using NumPy and Matplotlib.
+This repository contains from-scratch Python implementations of core machine-learning algorithms, built exclusively with NumPy for numerical computation and Matplotlib for visualization. Each implementation is accompanied by clear documentation and plots that illuminate the underlying mathematics and practical considerations.
 
 ## Project Structure
 
@@ -46,6 +46,13 @@ Navigate to the specific algorithm folder and run any script. Each implementatio
 - Sample data or examples
 - Visualization of results
 - Explanation of the underlying concepts
+
+## Contact
+
+Questions or feedback? Feel free to reach out:
+
+- Email: depombo2@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ldp1
 
 ## License
 
