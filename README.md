@@ -4,10 +4,29 @@ This repository contains from-scratch Python implementations of core machine-lea
 
 ## Project Structure
 
-- `regression-and-gradient-descent/`
-  - Contains implementations of linear regression and gradient descent algorithms
-  - Includes house price prediction using multiple linear regression
-  - Each implementation includes detailed documentation and visualizations
+### `regression-and-gradient-descent/`
+Comprehensive collection of linear regression and gradient descent implementations:
+
+**Core Algorithm Implementations:**
+- `gradient_descent_calculation.py` - Basic gradient descent algorithm implementation
+- `gradient_descent_cost_function.py` - Cost function calculations for gradient descent
+- `Applying Gradient Descent to Linear Regression.py` - Integration of gradient descent with linear regression
+- `linear_regression_analysis.py` - Fundamental linear regression analysis
+
+**Multiple Linear Regression:**
+- `multiple Linear Regression Exercise.py` - Exercise implementation
+- `multiple_linear_regression_analysis_1.py` - Basic multiple regression analysis
+- `multiple_linear_regression_analysis_2.py` - Advanced multiple regression with feature analysis
+- `multiple_linear_regression_analysis_3.py` - Extended multiple regression implementation
+
+**Real-World Applications:**
+- `house_price_prediction.py` - House price prediction using multiple linear regression
+- `Real estate market model.py` - Real estate market analysis model
+- `sales_regression_model_1.py` - Sales prediction based on advertising costs
+- `sales_regression_model_2.py` - Enhanced sales regression model
+- `sales_regression_model_3.py` - Advanced sales regression analysis
+
+Each implementation includes detailed documentation, visualizations, and practical examples.
 
 ## Features
 
