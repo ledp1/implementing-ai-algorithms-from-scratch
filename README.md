@@ -10,6 +10,8 @@ Comprehensive collection of linear regression and gradient descent implementatio
 **Core Algorithm Implementations:**
 - `gradient_descent_calculation.py` - Basic gradient descent algorithm implementation
 - `gradient_descent_cost_function.py` - Cost function calculations for gradient descent
+- `gradient_descent_parameter_adjustment.py` - Implementation of gradient descent with parameter adjustment
+- `gradient_descent_real_estate_market.py` - Application of gradient descent to real estate market analysis
 - `Applying Gradient Descent to Linear Regression.py` - Integration of gradient descent with linear regression
 - `linear_regression_analysis.py` - Fundamental linear regression analysis
 
